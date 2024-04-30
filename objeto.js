@@ -1,21 +1,3 @@
-class Objeto {
-    constructor (parametro1, parametro2) {
-        this.parametro1 = parametro1; //variavel de interface
-        this.parametro2 = parametro2; //variavel de interface
-        //ações
-    }
-
-    metodo1 () {
-        //ações
-    }
-
-    metodo2 () {
-        //ações
-    }
-}
-
-
-
 
 class Calebe {
     constructor (site) {
@@ -26,3 +8,6 @@ class Calebe {
         window.open(this.site);
     }
 }
+
+var novoCalebe = new Calebe ("https://poki.com/br");
+novoCalebe.exibirSite();
